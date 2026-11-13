@@ -1,10 +1,10 @@
 # Solar Flare Class Prediction from SHARP and GOES Data
 
-DS440 Capstone · [Team member names]
+DS440 Capstone · Domenic Cabibbo, Tjoet Lakmana, Ayanna Norfleet, Darshan Sivarajah, Nur Sakinah Binti Mohammad Zaini
 
 We predict the **largest solar flare an active region will produce in the next 24 hours** (none, C, M or X) from hourly magnetic field measurements, comparing five baseline models from prior studies with four new models.
 
-**Report:** [link]
+**Report:** [link] (Still being worked on)
 
 ## Data
 
