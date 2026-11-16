@@ -15,7 +15,7 @@ Our dataset combines two free public sources:
 
 Flares were matched to SHARP regions by NOAA region number, using JSOC's [HARP-to-NOAA table](http://jsoc.stanford.edu/doc/data/hmi/harpnum_to_noaa/all_harps_with_noaa_ars.txt). Each hour was labeled with the largest flare the region produced in the next 24 hours: none, C (including A and C class flares), M or X. Gaps of up to 3 hours were forward-filled. Data was split by region in time order: train 2010–2021, validation 2021–2023, test 2023–2026.
 
-**Final dataset:** `clean_flares_dataaset.csv` (https://drive.google.com/file/d/1ChTuN72NsGU-3hWdJ1gqfW-UhLBS-95U/view?usp=sharing)
+**Final dataset:** `flares_dataset.csv` ([https://drive.google.com/file/d/1ChTuN72NsGU-3hWdJ1gqfW-UhLBS-95U/view?usp=sharing](https://drive.google.com/file/d/1RGRjS7M97Uedr1gxe5Ksk4278T2MyxTZ/view?usp=sharing))
 
 ## Models
 
@@ -32,7 +32,7 @@ Flares were matched to SHARP regions by NOAA region number, using JSOC's [HARP-t
 
 ## How to run
 
-1. Put `clean_flares_dataaset.csv` in Google Drive at `MyDrive/DS440/`. To keep it somewhere else, change `DRIVE_PATH` in the settings cell of each notebook.
+1. Put `flares_dataset.csv` in Google Drive. Change `DRIVE_PATH` in the settings cell of each notebook to where you have the dataset.
 2. Open a notebook in Colab and run.
 
 ## Reproducibility
